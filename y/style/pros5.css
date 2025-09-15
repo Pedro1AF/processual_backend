@@ -76,18 +76,19 @@
        color: #007bff;
    }
 
-   main{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
+   main {
+       justify-content: center;
+       display: flex;
+       align-items: center;
+       text-align: center;
    }
-    h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+
+   h1 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
 
    /* Footer */
    footer {
