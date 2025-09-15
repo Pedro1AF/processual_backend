@@ -1,0 +1,186 @@
+   body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+   }
+
+   /* Navbar */
+   header {
+     background: #000000;
+     color: #fff;
+     padding: 1rem 2rem;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+   }
+
+   .titulo {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     font-size: 25px;
+     background-color: #c7c7c770;
+   }
+
+   .titulo h2{
+    margin: 1rem;
+   }
+   .titulo h1{
+    margin: 1rem;
+   }
+   
+
+   nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+   }
+
+   nav .links a {
+     padding: 5px;
+     margin-left: 1rem;
+     justify-content: center;
+     text-decoration: none;
+     color: #fff;
+     font-size: 1rem;
+   }
+
+   .links a,
+  .dropbtn {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .links a.active {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  /* Estilos do dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background: #2c2c2c;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    color: #007bff;
+  }
+
+   nav .links a:hover {
+     text-decoration: underline;
+   }
+
+   nav .active {
+     border-bottom: 5px solid #ffffff;
+     /* marcador embaixo */
+     font-weight: bold;
+     /* deixa em negrito */
+   }
+
+   .titex1 {
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     margin: 1rem;
+     margin-top: 20px;
+   }
+
+   
+
+   /* Conteúdo principal */
+   main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+   }
+
+   button {
+     cursor: pointer;
+     font-size: 20px;
+     margin-top: 10px;
+   }
+
+   button :hover {
+     background-color: #fff;
+     color: #000;
+   }
+
+   textarea {
+     font-size: 25px;
+     resize: none;
+   }
+
+   .saida {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0px;
+     margin-top: 20px;
+     padding: 10px;
+     border: 3px solid #000000;
+     background: #d3d3d385;
+   }
+
+   .saida p {
+     font-size: 20px;
+   }
+
+   /* Footer */
+   footer {
+     bottom: 0;
+     padding: 1rem;
+     display: flex;
+     justify-content: center;
+     background: #000000;
+     color: #ffffff;
+     text-align: center;
+   }
+
+
+   footer img {
+     width: 50px;
+     height: 50px;
+   }
+
+   footer img p {
+     justify-content: center;
+   }
